@@ -28,32 +28,31 @@
                             <form class="multisteps-form__form mb-8">
                                 <!--single form panel-->
                                 <div class="card multisteps-form__panel p-3 border-radius-xl bg-white js-active" data-animation="FadeIn">
-                                    <h5 class="font-weight-bolder mb-0">Tambahkan Penyewa</h5>
-                                    <p class="mb-0 text-sm">Silahkan masukkan data berikut untuk menambahkan data</p>
+                                    <h5 class="font-weight-bolder mb-0">Client Registration </h5>
+                                    <p class="mb-0 text-sm">Form layanan registrasi</p>
                                     <div class="multisteps-form__content">
                                         <div class="row mt-3">
                                             <div class="col-12 col-sm-6">
-                                                <label>Nama Penyewa</label>
-                                                <input class="multisteps-form__input form-control" type="text" placeholder="eg. Michael" />
+                                                <label>Nama Client</label>
+                                                <input class="multisteps-form__input form-control" type="text" placeholder="ct. Michael" />
                                             </div>
                                             <div class="col-12 col-sm-6 mt-3 mt-sm-0">
-                                                <label>Nama Jualan</label>
+                                                <label>Tanggal Pengesahan</label>
                                                 <input class="multisteps-form__input form-control" type="text" placeholder="eg. Prior" />
                                             </div>
                                         </div>
                                         <div class="row mt-3">
                                             <div class="col-12 col-sm-6">
-                                                <label class="mt-0">Daftar Gedung Tersedia</label>
+                                                <label class="mt-0">Tipe Ijazah</label>
                                                 <select class="form-control" name="choices-category" id="choices-category">
-                                                    <option default>Pilih Gedung</option>
-                                                    <option value="Choice 2">Kantin Gorengan</option>
-                                                    <option value="Choice 3">Kafe</option>
-                                                    <option value="Choice 4">Furniture</option>
-                                                    <option value="Choice 5">Others</option>
+                                                    <option default>Pilih tipe ijazah</option>
+                                                    <option value="Choice 2">Ijazah D3</option>
+                                                    <option value="Choice 3">Ijazah S1</option>
+                                                    <option value="Choice 4">Ijazah S3</option>
                                                 </select>
                                             </div>
                                             <div class="col-12 col-sm-6 mt-3 mt-sm-0">
-                                                <label>Harga Sewa per-bulan</label>
+                                                <label>Biaya Pengambilan</label>
                                                 <input class="multisteps-form__input form-control disabled" disabled type="text" placeholder="Harga tenan" />
                                             </div>
                                         </div>

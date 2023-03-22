@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse  w-auto h-auto" id="sidenav-collapse-main">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#dashboardsExamples" class="nav-link active" aria-controls="dashboardsExamples" role="button" aria-expanded="false">
+                <a data-bs-toggle="collapse" href="#dashboardsExamples" class="nav-link " aria-controls="dashboardsExamples" role="button" aria-expanded="false">
                     <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center d-flex align-items-center justify-content-center  me-2">
                         <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <title>shop </title>
@@ -30,14 +30,14 @@
                 </a>
                 <div class="collapse  show " id="dashboardsExamples">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="/index.php">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="/index.php">
                                 <span class="sidenav-mini-icon"> H </span>
                                 <span class="sidenav-normal"> Home </span>
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link " href="#">
                                 <span class="sidenav-mini-icon"> S </span>
                                 <span class="sidenav-normal"> Statistik </span>
                             </a>
@@ -256,7 +256,13 @@
                 </a>
                 <div class="collapse " id="pengesahan_ijazah">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/client_registration.php">
+                                <span class="sidenav-mini-icon"> TA </span>
+                                <span class="sidenav-normal"> Tambahkan Antrian </span>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
                             <a class="nav-link" href="/transaksi_ijazah.php">
                                 <span class="sidenav-mini-icon"> DG </span>
                                 <span class="sidenav-normal"> Transaksi Pembayaran </span>
@@ -299,7 +305,7 @@
                                 <span class="sidenav-normal"> Sewa Tenant </span>
                             </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="/approve_tx_tenan.php">
                                 <span class="sidenav-mini-icon"> AB </span>
                                 <span class="sidenav-normal"> Transaksi Penyewaan </span>
@@ -379,7 +385,7 @@
                 </a>
                 <div class="collapse " id="studio_foto">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">
                                 <span class="sidenav-mini-icon"> SF </span>
                                 <span class="sidenav-normal"> Daftar Pembayaran </span>
@@ -420,7 +426,7 @@
                 </a>
                 <div class="collapse " id="master_gedung">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="/master_pendaftaran.php">
                                 <span class="sidenav-mini-icon"> PG </span>
                                 <span class="sidenav-normal"> Pendaftaran Gedung </span>
@@ -457,7 +463,7 @@
                 </a>
                 <div class="collapse " id="master_ijazah">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">
                                 <span class="sidenav-mini-icon"> PG </span>
                                 <span class="sidenav-normal"> Pendaftaran Ijazah </span>
@@ -495,7 +501,7 @@
                 </a>
                 <div class="collapse " id="master_tenan">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">
                                 <span class="sidenav-mini-icon"> PG </span>
                                 <span class="sidenav-normal"> Pendaftaran Tenan </span>
@@ -532,7 +538,7 @@
                 </a>
                 <div class="collapse " id="master_pmobil">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">
                                 <span class="sidenav-mini-icon"> PM </span>
                                 <span class="sidenav-normal"> Pendaftaran Mobil </span>
@@ -569,7 +575,7 @@
                 </a>
                 <div class="collapse " id="master_studio">
                     <ul class="nav ms-4 ps-3">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">
                                 <span class="sidenav-mini-icon"> PM </span>
                                 <span class="sidenav-normal"> Pendaftaran Studio </span>
